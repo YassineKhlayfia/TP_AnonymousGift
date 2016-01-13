@@ -1,0 +1,4 @@
+accueil:
+    path: /accueil
+    defaults: { _controller: AcmeBlogBundle:Advert:index }
+
