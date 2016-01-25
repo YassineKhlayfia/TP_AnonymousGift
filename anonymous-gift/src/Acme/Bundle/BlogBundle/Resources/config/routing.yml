@@ -1,4 +1,23 @@
-accueil:
-    path: /accueil
+anonymous_home:
+    path: /
     defaults: { _controller: AcmeBlogBundle:Advert:index }
+anonymous_view:
+    path:      /advert/{id}
+    defaults:  { _controller: AcmeBlogBundle:Advert:view }
+    
+anonymous_add:
+    path:      /add
+    defaults:  { _controller: AcmeBlogBundle:Advert:add }
 
+
+anonymous_connect:
+    path:      /connect
+    defaults:  { _controller: AcmeBlogBundle:Advert:connect }
+
+anonymous_signin:
+    path:      /signin
+    defaults:  { _controller: AcmeBlogBundle:Advert:signin }
+
+anonymous_test:
+    path:      /test
+    defaults:  { _controller: AcmeBlogBundle:Advert:test }
